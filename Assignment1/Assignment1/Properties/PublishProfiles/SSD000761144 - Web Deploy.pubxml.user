@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjYwEBdI8uEigfKIckjoesAAAAAACAAAAAAAQZgAAAAEAACAAAADOVIX6OAynRsvlxNEkbRwyfK8QWRr5wWbA9O4h0AJWnAAAAAAOgAAAAAIAACAAAAAsEi0ftp2I8m/kVtDba5RtQaOzIBK030vn4TLnubD86YAAAACscF/5i5HKA+0T4iYL9zf7Jn8D+J+VxK8Lgl+zWrF7v4juAmA5A4PQoNKyZB6CYvE+QO7jOhCQe5qE+z9/YEXZc4fHZBPK+hqJ74LN7q8+3wR5U7TRalolczvzEmADkTASFtHAiMOLMshXGU39KGYqSqJchg/GDHBc34VAhRFUh0AAAAD4TwPbTd2aBaKzAwTiRR0y+tRGpxZ/FNrETtIaySKwhoOFgPkIpc0ttqqlUPD0P+U8o1kqL00VAH2ilHlS6q9X</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:assignment1dbserver.database.windows.net,1433%3bInitial Catalog=Assignment1_db%3bUser Id=van-phuc.pham%40assignment1dbserver%3bPassword=Password!1</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Assignment1.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:assignment1dbserver.database.windows.net,1433%3bInitial Catalog=Assignment1_db%3bUser Id=van-phuc.pham%40assignment1dbserver%3bPassword=Password!1</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
